@@ -1,0 +1,21 @@
+# Local OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data
+data/raw/*
+!data/raw_sample/
+
+# Logs & temp
+*.log
+*.tmp
+
+# AWS local artifacts
+.aws/
